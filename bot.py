@@ -30,6 +30,7 @@ async def start(event):
         Button.url( 'Donate', 'https://saweria.co/KimDonasi') 
       ]
     )
+    )
   )
 
 @client.on(events.NewMessage(pattern="^/help$"))
