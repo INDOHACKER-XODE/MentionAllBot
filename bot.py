@@ -29,7 +29,6 @@ async def start(event):
         Button.url('📦 Source', 'https://github.com/INDOHACKER-XODE/MentionAllBot')
         Button.url( 'Donate', 'https://saweria.co/KimDonasi') 
       ]
-     )
     )
   )
 
@@ -45,7 +44,6 @@ async def help(event):
         Button.url('📦 Source', 'https://github.com/INDOHACKER-XODE/MentionAllBot')
         Button.url( 'Donate', 'https://saweria.co/KimDonasi')
       ]
-     )
     )
   )
   
