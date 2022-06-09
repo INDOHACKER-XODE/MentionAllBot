@@ -27,7 +27,8 @@ async def start(event):
       [
         Button.url('📦 Source', 'https://github.com/INDOHACKER-XODE/MentionAllBot'),
         Button.url('📣 Channel', 'https://t.me/KB_updatebots'),
-        Button.url('Donate', 'https://saweria.co/KimDonasi') 
+        Button.url('Donasi', 'https://saweria.co/KimDonasi'), 
+        Button.url('donate', 'https://paypal.me/kimdonate')
       ]
     )
   )
@@ -41,7 +42,8 @@ async def help(event):
     buttons=(
       [
         Button.url('📣 Channel', 'https://t.me/KB_updatebots'),
-        Button.url('Donate', 'https://saweria.co/KimDonasi')
+        Button.url('Donate', 'https://saweria.co/KimDonasi'),
+        Button.url('donate', 'https://paypal.me/kimdonate')
       ]
     )
   )
