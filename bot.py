@@ -26,6 +26,7 @@ async def start(event):
     buttons=(
       [
         Button.url('📦 Source', 'https://github.com/INDOHACKER-XODE/MentionAllBot'),
+        Button.url('📣 Channel', 'https://t.me/KB_updatebots'),
         Button.url('Donate', 'https://saweria.co/KimDonasi') 
       ]
     )
