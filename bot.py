@@ -25,7 +25,7 @@ async def start(event):
     link_preview=False,
     buttons=(
       [
-        Button.url('📦 Source', 'https://github.com/INDOHACKER-XODE/MentionAllBot')
+        Button.url('📦 Source', 'https://github.com/INDOHACKER-XODE/MentionAllBot'),
         Button.url('Donate', 'https://saweria.co/KimDonasi') 
       ]
     )
