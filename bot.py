@@ -39,7 +39,7 @@ async def help(event):
     link_preview=False,
     buttons=(
       [
-        Button.url('📣 Channel', 'https://t.me/KB_updatebots')
+        Button.url('📣 Channel', 'https://t.me/KB_updatebots'),
         Button.url('Donate', 'https://saweria.co/KimDonasi')
       ]
     )
