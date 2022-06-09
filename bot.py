@@ -22,10 +22,10 @@ spam_chats = []
 async def start(event):
   await event.reply(
     "__**I'm MentionAll Bot**, I can mention almost all members in group or channel 👻\nClick **/help** for more information__\n\n Subscribe [MY Channel](https://t.me/KB_updatebots) on Telegram\n\n Follow [Kim](https://github.com/INDOHACKER-XODE) on GITHUB\n\n Made With ❤ By @heorchan on Telegram",
-    link_preview=False,
+    link_preview=False
     buttons=(
       [
-        Button.url('📣 Channel', 'https://t.me/KB_updatebots')
+        Button.url('📦 Source', 'https://github.com/INDOHACKER-XODE/MentionAllBot')
         Button.url('Donate', 'https://saweria.co/KimDonasi') 
       ]
     )
