@@ -26,7 +26,7 @@ async def start(event):
     buttons=(
       [
         Button.url('📣 Channel', 'https://t.me/KB_updatebots')
-        Button.url( 'Donate', 'https://saweria.co/KimDonasi') 
+        Button.url('Donate', 'https://saweria.co/KimDonasi') 
       ]
     )
   )
@@ -40,7 +40,7 @@ async def help(event):
     buttons=(
       [
         Button.url('📣 Channel', 'https://t.me/KB_updatebots')
-        Button.url( 'Donate', 'https://saweria.co/KimDonasi')
+        Button.url('Donate', 'https://saweria.co/KimDonasi')
       ]
     )
   )
