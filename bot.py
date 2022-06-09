@@ -22,7 +22,7 @@ spam_chats = []
 async def start(event):
   await event.reply(
     "__**I'm MentionAll Bot**, I can mention almost all members in group or channel 👻\nClick **/help** for more information__\n\n Subscribe [MY Channel](https://t.me/KB_updatebots) on Telegram\n\n Follow [Kim](https://github.com/INDOHACKER-XODE) on GITHUB\n\n Made With ❤ By @heorchan on Telegram",
-    link_preview=False
+    link_preview=False,
     buttons=(
       [
         Button.url('📦 Source', 'https://github.com/INDOHACKER-XODE/MentionAllBot')
@@ -36,7 +36,7 @@ async def help(event):
   helptext = "**Help Menu of MentionAllBot**\n\nCommand: /all\n__You can use this command with text what you want to mention others.__\n`Example: /all Good Morning!`\n__You can you this command as a reply to any message. Bot will tag users to that replied messsage__.\n\Subscribe [MY Channel](https://t.me/KB_updatebots) on Telegram\n\n Follow [Kim](https://github.com/INDOHACKER-XODE) on GITHUB\n\n Made With ❤ By @heorchan on Telegram"
   await event.reply(
     helptext,
-    link_preview=False
+    link_preview=False,
     buttons=(
       [
         Button.url('📣 Channel', 'https://t.me/KB_updatebots')
